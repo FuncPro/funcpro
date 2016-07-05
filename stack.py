@@ -20,7 +20,13 @@ hostedzone = t.add_parameter(Parameter(
 ))
 
 
-root_bucket = t.add_resource(Bucket("RootBucket", AccessControl=PublicRead,))
+root_bucket = t.add_resource(
+    Bucket("RootBucket",
+           AccessControl=PublicRead,
+           WebsiteConfiguration=WebsiteConfiguration(
+               IndexDocument="index.html",
+           )
+    ))
 www_bucket = t.add_resource(Bucket("WWWBucket", AccessControl=BucketOwnerFullControl, WebsiteConfiguration=WebsiteConfiguration(
     RedirectAllRequestsTo=RedirectAllRequestsTo(
         HostName=Ref(root_bucket)

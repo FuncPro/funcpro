@@ -30,10 +30,11 @@
         {% endif %}
         {% endblock head %}
 	<link rel="stylesheet" href="https://cdn.rawgit.com/mblode/marx/master/css/marx.min.css">
+	<link rel="stylesheet" href="/theme/css/style.css">
 </head>
 
 <body id="index" class="home">
-        <header id="banner" class="body">
+  <header id="banner" class="body">
                 <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
         </header><!-- /#banner -->
         <nav id="menu"><ul>
@@ -52,13 +53,10 @@
           {% endif %}
         {% endif %}
         </ul></nav><!-- /#menu -->
+	<main>
         {% block content %}
-        {% endblock %}
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-        </footer><!-- /#contentinfo -->
+          {% endblock %}
+	</main>
+  
 </body>
 </html>

@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Ross Fenning'
-SITENAME = u'Functional Programming Ltd.'
+SITENAME = u'Functional Programming'
 SITEURL = ''
 
 PATH = 'content'
@@ -34,3 +34,5 @@ DEFAULT_PAGINATION = False
 
 THEME = './theme'
 INDEX_SAVE_AS = 'blog.html'
+
+DISPLAY_PAGES_ON_MENU=False

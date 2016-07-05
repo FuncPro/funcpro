@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'CaviarDreams';
+	src: url('/theme/fonts/CaviarDreamsItalic-webfont.eot');
+	src: local('☺'), url('/theme/fonts/CaviarDreamsItalic-webfont.woff') format('woff'), url('/theme/fonts/CaviarDreamsItalic-webfont.ttf') format('truetype'), url('/theme/fonts/CaviarDreamsItalic-webfont.svg#webfontH8iKf99M') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'CaviarDreams';
+	src: url('/theme/fonts/CaviarDreams_BoldItalic-webfont.eot');
+	src: local('☺'), url('/theme/fonts/CaviarDreams_BoldItalic-webfont.woff') format('woff'), url('/theme/fonts/CaviarDreams_BoldItalic-webfont.ttf') format('truetype'), url('/theme/fonts/CaviarDreams_BoldItalic-webfont.svg#webfont67SqWN8B') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'CaviarDreams';
+	src: url('/theme/fonts/CaviarDreams-webfont.eot');
+	src: local('☺'), url('/theme/fonts/CaviarDreams-webfont.woff') format('woff'), url('/theme/fonts/CaviarDreams-webfont.ttf') format('truetype'), url('/theme/fonts/CaviarDreams-webfont.svg#webfonttPWhVpbW') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CaviarDreams';
+	src: url('/theme/fonts/CaviarDreams_Bold-webfont.eot');
+	src: local('☺'), url('/theme/fonts/CaviarDreams_Bold-webfont.woff') format('woff'), url('/theme/fonts/CaviarDreams_Bold-webfont.ttf') format('truetype'), url('/theme/fonts/CaviarDreams_Bold-webfont.svg#webfontmVOhErqn') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+header {
+    padding: 1em;
+}
+
+h1 {
+    font-family: 'CaviarDreams';
+}
