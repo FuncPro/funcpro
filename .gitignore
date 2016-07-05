@@ -1,0 +1,8 @@
+*~
+node_modules
+/output
+__pycache__
+/venv
+*.min.css
+/cache
+*.pyc
